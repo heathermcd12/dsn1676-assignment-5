@@ -7,13 +7,17 @@
 </head>
 <body>
     
-<div>
-   <form>
-    <label for="to-do-list">To-Do:</label>
-    <input id="to-do-list"></input>
-    <button type="submit">Add</button>
-   </form> 
-    <ul class="list"></ul>
+<div class= "pagestyle">
+   <form class="form" method="post" action="#">
+        <div class="grey">
+            <label class="title" for="todo">To-Do:</label>
+            <input class="todo" id="todo">
+            <button class="addbutton" type="submit">Add</button>
+        </div>
+   </form>    
+    
+    <ol class="list added"></ol>
+    
 </div>
      
  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js"></script>      
