@@ -1,0 +1,13 @@
+body {
+    text-align:center;
+    background-color: #e2e2e2;
+}
+
+.pagestyle {
+    background-color: #efefef;
+    border-radius: 10%;
+}
+
+.list {
+    list-style-type: none;
+}
