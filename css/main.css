@@ -53,8 +53,6 @@ body {
 }
 
 .strikethrough:click {
+    text-decoration: line-through;
     opacity: 30;
-    -webkit-animation: fox 4s linear forwards;
-    animation: fox 4s linear forwards;
-    transition: all .25s steps(2);
 }
