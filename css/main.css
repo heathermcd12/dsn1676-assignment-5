@@ -8,6 +8,53 @@ body {
     border-radius: 10%;
 }
 
+.title {
+    font-size: 1.5em;
+}
+
 .list {
     list-style-type: none;
+    background-color: white;
+    font-size: .7em;
+}
+
+.list:strikethrough {
+    opacity: 30;
+    -webkit-animation: list 4s linear forwards;
+    animation: list 4s linear forwards;
+}
+
+.form {
+    background-color: #efefef;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top:1em;
+
+}
+
+.todo {
+    margin-top: .5em;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+.addbutton {
+    background-color: lightgrey;
+    padding-top: .5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: .5em;
+}
+
+.check {
+    background-color: #e2e2e2;
+    margin-left: 10em;
+    text-align: right;
+}
+
+.strikethrough:click {
+    opacity: 30;
+    -webkit-animation: fox 4s linear forwards;
+    animation: fox 4s linear forwards;
+    transition: all .25s steps(2);
 }
